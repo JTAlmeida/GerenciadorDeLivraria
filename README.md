@@ -32,8 +32,6 @@ Projeto desenvolvido como parte de um desafio prático de aprendizado.
 - .NET (ASP.NET Core)
 - C#
 - Swagger (OpenAPI)
-- Injeção de Dependência
-- Repository Pattern
 - Programação Orientada a Objetos
 
 ---
@@ -144,6 +142,27 @@ No Swagger, você poderá:
 
 - O projeto utiliza armazenamento em memória para simular um banco de dados
 - Os dados são perdidos ao reiniciar a aplicação
+- O enum de gêneros permitidos é:
+```
+public enum BookGenre
+{
+    Ficção,
+    Romance,
+    Mistério,
+    Fantasia,
+    Terror,
+    Suspense,
+    Ação,
+    Biografia,
+    Histórico,
+    Autoajuda,
+    Infantil,
+    Científico,
+    Poesia,
+    Drama,
+    Aventura
+}
+```
 
 ---
 Projeto desenvolvido como exercício prático de aprendizado em .NET.
